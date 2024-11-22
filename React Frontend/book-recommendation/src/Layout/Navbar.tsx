@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 
 const pages = [
-  { label: "", path: "/" },
+  
   { label: "Books", path: "/books" },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];

@@ -15,7 +15,7 @@ const CustomSearchBar = ({
   onChange,
   onClear,
   placeholder = "Search...",
-  width = "500px",
+  width = "100%",
   mt,
 }: CustomSearchBarProps) => {
   return (

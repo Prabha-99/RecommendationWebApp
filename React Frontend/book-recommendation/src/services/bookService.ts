@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Book } from "../models/bookModel";
+import { Book } from "../models/book.model";
 
 const BASE_URL = "http://127.0.0.1:8000/recommendations";
 
@@ -23,11 +23,8 @@ const getRecommendedBooks = async (
   }
 };
 
-
-
 const booksService = {
-    getRecommendedBooks,
-    
-  };
-  
-  export default booksService;
+  getRecommendedBooks,
+};
+
+export default booksService;

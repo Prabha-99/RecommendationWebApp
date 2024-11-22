@@ -8,14 +8,7 @@ function Dashboard() {
     <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <Navbar />
 
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          mt: 8, // Adjust to match the AppBar height
-          p: 3,
-        }}
-      >
+      <Box component="main">
         <Container>
           <Outlet />
         </Container>
